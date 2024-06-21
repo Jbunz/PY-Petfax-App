@@ -1,0 +1,42 @@
+/* style.css */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: olivedrab; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading 1 styling */
+h1 {
+    text-align: center;
+    color: #333; /* Dark gray text color */
+    margin-top: 20px;
+}
+
+/* Pet details container styling */
+.pet-details {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color:orange;
+    padding: 20px;
+    border: 1px solid pea olivedrab;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Pet image styling */
+.pet-details img {
+    display: block;
+    margin: 0 auto 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fun fact paragraph styling */
+.pet-details p {
+    margin-bottom: 0;
+    font-style: italic;
+    color: #555; /* Dark gray text color */
+}
